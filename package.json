@@ -1,0 +1,25 @@
+{
+  "name": "leaflet.curve.text",
+  "version": "1.0.0",
+  "description": "leaf let plugin to create curves with text over curve path.",
+  "main": "leaflet.curve.text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamGS/Leaflet.curve.text.git"
+  },
+  "keywords": [
+    "leaflet",
+    "curve",
+    "text",
+    "textpath"
+  ],
+  "author": "gautamGS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gautamGS/Leaflet.curve.text/issues"
+  },
+  "homepage": "https://github.com/gautamGS/Leaflet.curve.text#readme"
+}
