@@ -189,6 +189,10 @@ L.Curve = L.Path.extend({
 		
 		textPath.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", '#'+id);
 		textNode.setAttribute('dy', dy);
+
+		for(var attr in options.attributes) {
+			textNode.setAttribute(attr, options.attributes[attr]);
+		}
 		
 		textPath.appendChild(document.createTextNode(text));
         	textNode.appendChild(textPath);
